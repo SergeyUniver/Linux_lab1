@@ -2,7 +2,7 @@ all: main
 
 clean:
 	rm -rf main *.o *.so
-	rm print
+	rm -rf print
 
 libs:
 	gcc -fPIC -c hello.c -o hello.o

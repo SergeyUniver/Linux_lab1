@@ -11,4 +11,4 @@ libs:
 	gcc -shared -olibbye.so bye.o
 
 main: libs
-	gcc 1.c -o print -L ./ -lhello -lbye
+	gcc main.c -o print -L ./ -lhello -lbye
